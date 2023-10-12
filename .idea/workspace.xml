@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="">
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Obsługa Błędów&#10;&#10;Dodano obsługę błędów w przypadku wprowadzenia złego typu danych oraz przeniesiono sprawdzania danych w miejsce ich wprowadzenia, by umożliwić ich poprawienie bez resetowani programu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lista_1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex1.java" afterDir="false" />
     </list>
@@ -61,6 +61,29 @@
       <option name="presentableId" value="Default" />
       <updated>1697112973508</updated>
     </task>
+    <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
+      <created>1697114297438</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697114297438</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny" />
+    <MESSAGE value="Obsługa Błędów&#10;&#10;Dodano obsługę błędów w przypadku wprowadzenia złego typu danych oraz przeniesiono sprawdzania danych w miejsce ich wprowadzenia, by umożliwić ich poprawienie bez resetowani programu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Obsługa Błędów&#10;&#10;Dodano obsługę błędów w przypadku wprowadzenia złego typu danych oraz przeniesiono sprawdzania danych w miejsce ich wprowadzenia, by umożliwić ich poprawienie bez resetowani programu" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
