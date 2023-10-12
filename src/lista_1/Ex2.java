@@ -1,14 +1,21 @@
+package lista_1;
+
 import java.util.Scanner;
 
 public class Ex2 {
+    /**
+     *
+     */
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Podaj łańcuch referencyjny: ");
         String reference = scanner.nextLine().toLowerCase();
 
-        int wrong = 0;
+
         while (true) {
+            int wrong = 0;
             System.out.print("Podaj łańcuch do porównania: ");
             String compare = scanner.nextLine().toLowerCase();
 
