@@ -1,3 +1,5 @@
+package lista_1;
+
 import java.util.Scanner;
 
 public class Ex3 {
@@ -15,7 +17,7 @@ public class Ex3 {
 
         int r = Integer.parseInt(s1, 16);
         int g = Integer.parseInt(s2, 16);
-        int b = Integer.parseInt(s2, 16);
+        int b = Integer.parseInt(s3, 16);
         System.out.printf("(" + r + "," + b + "," + g + ")");
 
     }
