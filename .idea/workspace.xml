@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Komentarz">
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX&#10;&#10;Dodano komentarz dokumentacyjny">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lista_1/Ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex3.java" afterDir="false" />
     </list>
@@ -29,7 +29,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Ex3">
@@ -125,15 +126,35 @@
       <option name="project" value="LOCAL" />
       <updated>1697123955741</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Poprawa błędów&#10;&#10;Przy przeliczaniu b zmieniono s2 na s3">
+      <created>1697194032773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697194032773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Obsługa Błędów&#10;&#10;Dodano obsługę błędów w przypadku wprowadzenia złego typu danych oraz przeniesiono sprawdzania danych w miejsce ich wprowadzenia, by umożliwić ich poprawienie bez resetowani programu" />
     <MESSAGE value="Naprawa&#10;&#10;Dodano do pętli ustawianie wartości 'wrong' na zero, by uniknąć odrzucanie prawidłowych ciągów" />
     <MESSAGE value="Komentarz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Komentarz" />
+    <MESSAGE value="Poprawa błędów&#10;&#10;Przy przeliczaniu b zmieniono s2 na s3" />
+    <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX&#10;&#10;Dodano komentarz dokumentacyjny" />
+    <option name="LAST_COMMIT_MESSAGE" value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX&#10;&#10;Dodano komentarz dokumentacyjny" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

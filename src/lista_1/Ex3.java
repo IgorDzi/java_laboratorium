@@ -1,13 +1,31 @@
 package lista_1;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ex3 {
+    /**
+     * metoda zamieniająca kod HEX na dane kolorów rgb
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Podaj kod HEX: ");
-        String k = scanner.nextLine();
+        String k;
+        while(true){
+        System.out.print("Podaj kod HEX: ");
+            try{
+                 k = scanner.nextLine();
+                 Long.parseLong(k,16);
+                 if(k.length() != 6){throw new InputMismatchException();
+                 }
+                 break;
+            }
+
+            catch (InputMismatchException | NumberFormatException e){
+                System.out.println("Nieprawidłowe dane wejściowe!");
+            }
+        }
+
 
         scanner.close();
 
