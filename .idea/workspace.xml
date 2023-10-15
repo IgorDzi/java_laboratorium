@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX lub użycia nieprawidłowych znaków&#10;&#10;Dodano komentarz dokumentacyjny">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika">
       <change beforePath="$PROJECT_DIR$/src/lista_1/Ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697398635085</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika">
+      <created>1697399899806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697399899806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +182,8 @@
     <MESSAGE value="Poprawa błędów&#10;&#10;Przy przeliczaniu b zmieniono s2 na s3" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX lub użycia nieprawidłowych znaków&#10;&#10;Dodano komentarz dokumentacyjny" />
-    <option name="LAST_COMMIT_MESSAGE" value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX lub użycia nieprawidłowych znaków&#10;&#10;Dodano komentarz dokumentacyjny" />
+    <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika" />
+    <option name="LAST_COMMIT_MESSAGE" value="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
