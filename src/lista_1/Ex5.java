@@ -1,3 +1,5 @@
+package lista_1;
+
 import java.util.Scanner;
 
 public class Ex5 {
@@ -21,7 +23,7 @@ public class Ex5 {
         }
     }
 
-    public static double[] wspolczynniki(double pierwszyPunktX, double pierwszyPunktY, double drugiPunktX, double drugiPunktY) {
+    public static double[] wspolczynniki(double pierwszyPunktX, double drugiPunktX, double pierwszyPunktY, double drugiPunktY) {
         if ((drugiPunktX == pierwszyPunktX) && (drugiPunktY == pierwszyPunktY)){
             throw new IllegalArgumentException("Współrzędne punktów nie mogą być takie same.");
         }

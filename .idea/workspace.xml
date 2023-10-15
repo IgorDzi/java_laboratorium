@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika">
-      <change beforePath="$PROJECT_DIR$/src/lista_1/Ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex4.java" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Obsługa wyjątków&#10;&#10;Dodano obsługę błędu przy podaniu złego typu danych&#10;&#10;Dodano komentarz dokumentacyjny">
+      <change beforePath="$PROJECT_DIR$/src/lista_1/Ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,20 +32,7 @@
     "last_opened_file_path": "C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ex4">
-    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista_1.Ex1" />
-      <module name="java_laboratorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex5">
     <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex2" />
       <module name="java_laboratorium" />
@@ -79,6 +66,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista_1.Ex5" />
+      <module name="java_laboratorium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lista_1.Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_1.Ex2" />
       <module name="java_laboratorium" />
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex5" />
         <item itemvalue="Application.Ex4" />
         <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.lista_1.Ex2" />
         <item itemvalue="Application.Ex2" />
-        <item itemvalue="Application.Ex1" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697399899806</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Obsługa wyjątków&#10;&#10;Dodano obsługę błędu przy podaniu złego typu danych&#10;&#10;Dodano komentarz dokumentacyjny">
+      <created>1697400223136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697400223136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +190,8 @@
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX lub użycia nieprawidłowych znaków&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika" />
-    <option name="LAST_COMMIT_MESSAGE" value="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika" />
+    <MESSAGE value="Obsługa wyjątków&#10;&#10;Dodano obsługę błędu przy podaniu złego typu danych&#10;&#10;Dodano komentarz dokumentacyjny" />
+    <option name="LAST_COMMIT_MESSAGE" value="Obsługa wyjątków&#10;&#10;Dodano obsługę błędu przy podaniu złego typu danych&#10;&#10;Dodano komentarz dokumentacyjny" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
