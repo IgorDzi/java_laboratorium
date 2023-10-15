@@ -1,3 +1,5 @@
+package lista_1;
+
 import java.util.Scanner;
 
 public class Ex4 {
@@ -12,10 +14,10 @@ public class Ex4 {
         if ((n > 9) || (n < 1)) {
             System.out.print("Podano liczbę spoza dopuszczalnego przedziału.");
         } else {
-            int[][] tabA = new int[n][n];
-            for (int i = 0; i < n; i++) {
-                for (int j = 1; j <= n; j++) {
-                    tabA[i][j] = i * j;
+            int[][] tabA = new int[n+1][n+1];
+            for (int i = 1; i < (tabA.length); i++) {
+                for (int j = 1; j < (tabA[i].length); j++) {
+                    tabA[i][j] = i* j;
                     System.out.print(tabA[i][j] + "\t");
                 }
                 System.out.println();
