@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Naprawa błędu&#10;&#10;Poprawiono metodę 'wspolczynniki' tak by brała poprawne punkty jako argumenty">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne">
       <change beforePath="$PROJECT_DIR$/src/lista_1/Ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697400781251</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne">
+      <created>1697448552771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697448552771</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +206,8 @@
     <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Dodano obsługę błędu przy podaniu złego typu danych&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono metodę 'wspolczynniki' tak by brała poprawne punkty jako argumenty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Naprawa błędu&#10;&#10;Poprawiono metodę 'wspolczynniki' tak by brała poprawne punkty jako argumenty" />
+    <MESSAGE value="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne" />
+    <option name="LAST_COMMIT_MESSAGE" value="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
