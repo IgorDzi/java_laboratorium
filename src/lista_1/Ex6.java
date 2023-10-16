@@ -1,3 +1,5 @@
+package lista_1;
+
 import java.util.Scanner;
 
 public class Ex6 {
@@ -30,11 +32,9 @@ public class Ex6 {
 
         if (miesiac == 2) {
             dopuszczalnyDzien = 29;
-        } else {
-            dopuszczalnyDzien = 31;
         }
 
-        if ((dzien < 1) || (dzien >= dopuszczalnyDzien)) {
+        if ((dzien < 1) || (dzien > dopuszczalnyDzien)) {
             throw new IllegalArgumentException("Podano nieprawidłowy dzień.");
         }
 

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne">
-      <change beforePath="$PROJECT_DIR$/src/lista_1/Ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex5.java" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Naprawa błędów&#10;&#10;Naprawiono błąd, który powodował odrzucenie dnia dopuszczalnego w danym miesiącu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_1/Ex6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +33,7 @@
     "last_opened_file_path": "C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ex5">
-    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex2" />
-      <module name="java_laboratorium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex6">
     <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_1.Ex3" />
       <module name="java_laboratorium" />
@@ -79,6 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista_1.Ex6" />
+      <module name="java_laboratorium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lista_1.Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_1.Ex2" />
       <module name="java_laboratorium" />
@@ -94,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex6" />
         <item itemvalue="Application.Ex5" />
         <item itemvalue="Application.Ex4" />
         <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.lista_1.Ex2" />
-        <item itemvalue="Application.Ex2" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697448552771</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Obsługa wyjątków&#10;&#10;Dodano obsługę wyjątku w przypadku gdy zostanie wprowadzony niewłaściwy typ danych">
+      <created>1697449127334</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697449127334</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +221,9 @@
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Dodano obsługę błędu przy podaniu złego typu danych&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono metodę 'wspolczynniki' tak by brała poprawne punkty jako argumenty" />
     <MESSAGE value="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne" />
+    <MESSAGE value="Obsługa wyjątków&#10;&#10;Dodano obsługę wyjątku w przypadku gdy zostanie wprowadzony niewłaściwy typ danych" />
+    <MESSAGE value="Naprawa błędów&#10;&#10;Naprawiono błąd, który powodował odrzucenie dnia dopuszczalnego w danym miesiącu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Naprawa błędów&#10;&#10;Naprawiono błąd, który powodował odrzucenie dnia dopuszczalnego w danym miesiącu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
