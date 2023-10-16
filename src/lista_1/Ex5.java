@@ -3,6 +3,9 @@ package lista_1;
 import java.util.Scanner;
 
 public class Ex5 {
+    /**
+     * metoda licząca równanie prostej na podstawie współrzędnych dwóch punktów
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -23,6 +26,14 @@ public class Ex5 {
         }
     }
 
+    /**
+     * metoda licząca współczynniki 'a' i 'b' równania prostej
+     * @param pierwszyPunktX współrzędna x pierwszego punktu
+     * @param drugiPunktX współrzędna y pierwszego punktu
+     * @param pierwszyPunktY współrzędna x drugiego punktu
+     * @param drugiPunktY współrzędna y drugiego punktu
+     * @return lista ze współczynnikami prostej
+     */
     public static double[] wspolczynniki(double pierwszyPunktX, double drugiPunktX, double pierwszyPunktY, double drugiPunktY) {
         if ((drugiPunktX == pierwszyPunktX) && (drugiPunktY == pierwszyPunktY)){
             throw new IllegalArgumentException("Współrzędne punktów nie mogą być takie same.");
