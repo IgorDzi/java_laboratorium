@@ -3,6 +3,9 @@ package lista_1;
 import java.util.Scanner;
 
 public class Ex6 {
+    /**
+     * metoda tworząca datę z wprowadzonych danych
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,6 +22,24 @@ public class Ex6 {
         }
     }
 
+    /**
+     * metoda sprawdzająca czy rok jest rokiem przestępnym
+     * @param year rok
+     * @return true: jeżeli jest; false: jeżeli nie jest
+     */
+    public static boolean is_leap_year(int year) {
+        boolean isLeapYear = (year % 4 == 0);
+        isLeapYear = isLeapYear && (year % 100 != 0 || year % 400 == 0);
+        return isLeapYear;
+    }
+
+    /**
+     * Metoda tworząca datę sprawdzając poprawność wprowadzenia danych
+     * @param dzien dzień
+     * @param miesiac miesiąc
+     * @param rok rok
+     * @return utworzona data
+     */
     public static String data(int dzien, int miesiac, int rok) {
         int dopuszczalnyDzien = 31;
 
@@ -31,7 +52,13 @@ public class Ex6 {
         }
 
         if (miesiac == 2) {
-            dopuszczalnyDzien = 29;
+            if (is_leap_year(rok)){
+                dopuszczalnyDzien = 29;
+            }
+            else {
+                dopuszczalnyDzien = 28;
+            }
+
         }
 
         if ((dzien < 1) || (dzien > dopuszczalnyDzien)) {
