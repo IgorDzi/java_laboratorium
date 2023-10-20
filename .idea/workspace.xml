@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Rok przestępny&#10;&#10;Dodano sprawdzanie, czy rok jest przestępny&#10;&#10;Dodano komentarze dokumentacyjne">
-      <change beforePath="$PROJECT_DIR$/src/lista_1/Ex6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_1/Ex6.java" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Ex6">
     <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_1.Ex3" />
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697451924263</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych">
+      <created>1697452258100</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697452258100</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +244,8 @@
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Dodano obsługę wyjątku w przypadku gdy zostanie wprowadzony niewłaściwy typ danych" />
     <MESSAGE value="Naprawa błędów&#10;&#10;Naprawiono błąd, który powodował odrzucenie dnia dopuszczalnego w danym miesiącu" />
     <MESSAGE value="Rok przestępny&#10;&#10;Dodano sprawdzanie, czy rok jest przestępny&#10;&#10;Dodano komentarze dokumentacyjne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rok przestępny&#10;&#10;Dodano sprawdzanie, czy rok jest przestępny&#10;&#10;Dodano komentarze dokumentacyjne" />
+    <MESSAGE value="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych" />
+    <option name="LAST_COMMIT_MESSAGE" value="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
