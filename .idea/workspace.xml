@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych">
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="lista_2 z zajęć">
+      <change afterPath="$PROJECT_DIR$/src/lista_2/ComplexNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_2/ComplexNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_2/Vector2DTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_laboratorium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_laboratorium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_2/vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_2/Vector2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,60 +32,49 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2Wf9sIKY3dlNftYXpAGhcE2NPih" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "proofread",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Ex6">
-    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista_1.Ex3" />
-      <module name="java_laboratorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista_1.Ex4" />
-      <module name="java_laboratorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista_1.Ex5" />
-      <module name="java_laboratorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lista_2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ComplexNumberTest">
     <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_1.Ex6" />
       <module name="java_laboratorium" />
@@ -85,26 +88,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lista_1.Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista_1.Ex2" />
+    <configuration name="ComplexNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_laboratorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista_1.*" />
+          <option name="PATTERN" value="lista_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lista_2" />
+      <option name="MAIN_CLASS_NAME" value="lista_2.ComplexNumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComplexNumberTest.module" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_laboratorium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista_2" />
+      <option name="MAIN_CLASS_NAME" value="lista_2.ComplexNumberTest" />
+      <option name="METHOD_NAME" value="module" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComplexNumberTest.pow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_laboratorium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista_2" />
+      <option name="MAIN_CLASS_NAME" value="lista_2.ComplexNumberTest" />
+      <option name="METHOD_NAME" value="pow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vector2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_laboratorium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista_2" />
+      <option name="MAIN_CLASS_NAME" value="lista_2.Vector2DTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComplexNumberTest" />
+        <item itemvalue="JUnit.ComplexNumberTest.pow" />
+        <item itemvalue="JUnit.Vector2DTest" />
+        <item itemvalue="JUnit.ComplexNumberTest.module" />
         <item itemvalue="Application.Ex6" />
-        <item itemvalue="Application.Ex5" />
-        <item itemvalue="Application.Ex4" />
-        <item itemvalue="Application.Ex3" />
-        <item itemvalue="Application.lista_1.Ex2" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +168,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697112973508</updated>
+      <workItem from="1697821337412" duration="39000" />
+      <workItem from="1697821383161" duration="919000" />
+      <workItem from="1697901496308" duration="15291000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>
@@ -215,8 +270,25 @@
       <option name="project" value="LOCAL" />
       <updated>1697452258100</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lista_2 z zajęć">
+      <created>1697818165079</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697818165079</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lista_2 z zajęć">
+      <created>1697818185174</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697818185174</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -245,7 +317,8 @@
     <MESSAGE value="Naprawa błędów&#10;&#10;Naprawiono błąd, który powodował odrzucenie dnia dopuszczalnego w danym miesiącu" />
     <MESSAGE value="Rok przestępny&#10;&#10;Dodano sprawdzanie, czy rok jest przestępny&#10;&#10;Dodano komentarze dokumentacyjne" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych" />
-    <option name="LAST_COMMIT_MESSAGE" value="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych" />
+    <MESSAGE value="lista_2 z zajęć" />
+    <option name="LAST_COMMIT_MESSAGE" value="lista_2 z zajęć" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,5 +329,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
