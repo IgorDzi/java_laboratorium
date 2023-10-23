@@ -2,6 +2,10 @@ package lista_2;
 
 class ComplexNumber extends Vector2D {
 
+    /**
+     * @param x - część rzeczywista liczby zespolonej
+     * @param y - część urojona liczby zespolonej
+     */
     public ComplexNumber(double x, double y) {
         super(x, y);
     }
@@ -10,6 +14,9 @@ class ComplexNumber extends Vector2D {
         super(vektor.getX(), vektor.getY());
     }
 
+    /**
+     * @return argument liczby zespolonej
+     */
     public double argument() {
         return Math.atan(y / x);
     }

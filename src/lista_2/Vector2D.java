@@ -6,6 +6,10 @@ public class Vector2D {
     protected final double x;
     protected final double y;
 
+    /**
+     * @param x Współrzędna x wektora
+     * @param y Współrzędna y wektora
+     */
     public Vector2D(double x, double y) {
         this.x = x;
         this.y = y;
@@ -20,24 +24,54 @@ public class Vector2D {
         return y;
     }
 
+
+    /**
+     * @return Zwraca moduł/długość wektora
+     */
     public double module() {
         return Math.pow(Math.pow(x, 2) + Math.pow(y, 2), 0.5);
     }
 
 
+    /**
+     * @param addend Wektor do dodania
+     * @return Wektor po dodaniu do niego podanego wektora
+     */
     public Vector2D add(Vector2D addend) {
         return new Vector2D(x + addend.getX(), y + addend.getY());
 
     }
+
+    /**
+     * @param number Wektor 1
+     * @param addend Wektor 2
+     * @return Wektor, który jest suma dwóch wektorów
+     */
     public static Vector2D add(Vector2D number, Vector2D addend){
         return number.add(addend);
     }
+
+    /**
+     * @param minuend Wektor do odjęcia
+     * @return Wektor po odjęciu podanego wektora
+     */
     public Vector2D subtract(Vector2D minuend){
         return new Vector2D(x - minuend.getX(), y - minuend.getY());
     }
+
+    /**
+     * @param number Wektor 1
+     * @param minuend Wektor 2
+     * @return Różnica podanych wektorów
+     */
     public static  Vector2D subtract(Vector2D number, Vector2D minuend){
         return number.subtract(minuend);
     }
+
+    /**
+     * @param value stała, przez która pomnożyć wektor
+     * @return wektor po przemnożeniu
+     */
     public Vector2D multiplication(double value) {
 
         return new Vector2D(x * value, y * value);

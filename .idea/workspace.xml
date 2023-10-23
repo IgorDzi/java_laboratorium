@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="lista_2 z zajęć">
-      <change afterPath="$PROJECT_DIR$/src/lista_2/ComplexNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_2/ComplexNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_2/Vector2DTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista druga gotowe zadania">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_laboratorium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_laboratorium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_2/vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_2/Vector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_2/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_2/ComplexNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_2/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_2/Vector2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +166,7 @@
       <updated>1697112973508</updated>
       <workItem from="1697821337412" duration="39000" />
       <workItem from="1697821383161" duration="919000" />
-      <workItem from="1697901496308" duration="15291000" />
+      <workItem from="1697901496308" duration="19160000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>
@@ -284,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697818185174</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lista druga gotowe zadania">
+      <option name="closed" value="true" />
+      <created>1697987553060</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697987553060</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +322,8 @@
     <MESSAGE value="Rok przestępny&#10;&#10;Dodano sprawdzanie, czy rok jest przestępny&#10;&#10;Dodano komentarze dokumentacyjne" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych" />
     <MESSAGE value="lista_2 z zajęć" />
-    <option name="LAST_COMMIT_MESSAGE" value="lista_2 z zajęć" />
+    <MESSAGE value="Lista druga gotowe zadania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista druga gotowe zadania" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
