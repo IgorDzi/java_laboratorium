@@ -69,11 +69,10 @@ public class Vector2D {
     }
 
     /**
-     * @param value stała, przez która pomnożyć wektor
+     * @param value stała, przez która pomnożyć wektor /by podzielić, można pomnożyć przez odwrotność
      * @return wektor po przemnożeniu
      */
     public Vector2D multiplication(double value) {
-
         return new Vector2D(x * value, y * value);
     }
     public static  Vector2D multiplication(Vector2D number, double value){

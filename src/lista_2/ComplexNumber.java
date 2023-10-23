@@ -21,17 +21,23 @@ class ComplexNumber extends Vector2D {
         return Math.atan(y / x);
     }
 
+    /**
+     * @return postać wykładnicza liczby zespolonej
+     */
     public String exponential() {
         return (module() + "e^(i" +  argument() + ")");
     }
 
-
-    public ComplexNumber pow(int power){
+    /**
+     * @param power n-ta potęga liczby zespolonej
+     * @return liczba zespolona podniesiona do n-tej potęgi
+     */
+    public ComplexNumber pow(double power){
         double real = Math.pow(module(), power) * (Math.cos(power * argument()));
         double imaginary = Math.pow(module(), power) * (Math.sin(power * argument()));
         return new ComplexNumber(Math.round(real), Math.round(imaginary)); //No ideal
     }
-    public static ComplexNumber pow(ComplexNumber number, int power){
+    public static ComplexNumber pow(ComplexNumber number, double power){
         double real = Math.pow(number.module(), power) * Math.cos(power * number.argument());
         double imaginary = Math.pow(number.module(), power) * Math.sin(power * number.argument());
         return new ComplexNumber(Math.round(real), Math.round(imaginary));//No ideal
