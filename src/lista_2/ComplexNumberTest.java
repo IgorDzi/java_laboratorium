@@ -34,16 +34,23 @@ class ComplexNumberTest {
 
     @Test
     void pow() {
-        assertEquals(new ComplexNumber(-7,24), new ComplexNumber(3,4).pow(2));
+        ComplexNumber expected = new ComplexNumber(-7,24);
+        ComplexNumber actual = new ComplexNumber(3,4).pow(2);
+        assertEquals(expected.getX(), Math.round(actual.getX()));
+        assertEquals(expected.getY(), Math.round(actual.getY()));
     }
 
     @Test
     void testPow() {
-        assertEquals(new ComplexNumber(-7,24), ComplexNumber.pow(new ComplexNumber(3,4),2));
+        ComplexNumber expected = new ComplexNumber(-7,24);
+        ComplexNumber actual = ComplexNumber.pow(new ComplexNumber(3,4),2);
+        assertEquals(expected.getX(), Math.round(actual.getX()));
+        assertEquals(expected.getY(), Math.round(actual.getY()));
     }
 
     @Test
     void testAdd() {
         assertEquals(new ComplexNumber(3,4), new ComplexNumber(1,1).add(new ComplexNumber(2,3)));
     }
+    
 }

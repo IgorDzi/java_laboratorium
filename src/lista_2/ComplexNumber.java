@@ -35,12 +35,12 @@ class ComplexNumber extends Vector2D {
     public ComplexNumber pow(double power){
         double real = Math.pow(module(), power) * (Math.cos(power * argument()));
         double imaginary = Math.pow(module(), power) * (Math.sin(power * argument()));
-        return new ComplexNumber(Math.round(real), Math.round(imaginary)); //No ideal
+        return new ComplexNumber(real, imaginary);
     }
     public static ComplexNumber pow(ComplexNumber number, double power){
         double real = Math.pow(number.module(), power) * Math.cos(power * number.argument());
         double imaginary = Math.pow(number.module(), power) * Math.sin(power * number.argument());
-        return new ComplexNumber(Math.round(real), Math.round(imaginary));//No ideal
+        return new ComplexNumber(real, imaginary);
     }
 
 
