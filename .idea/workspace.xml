@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="lista_2 z zajęć">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="zmiana metod pow by dawały dokładny wynik a zaokrąglenie przeniesiono do testu">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Wood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_laboratorium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_laboratorium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_2/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_2/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_2/ComplexNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_2/ComplexNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,31 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "proofread",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -72,8 +76,8 @@
       <recent name="lista_2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexNumberTest.testPow">
-    <configuration name="ComplexNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="ComplexNumberTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="java_laboratorium" />
       <extension name="coverage">
         <pattern>
@@ -83,6 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="lista_2" />
       <option name="MAIN_CLASS_NAME" value="lista_2.ComplexNumberTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,12 +156,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ComplexNumberTest" />
+      <item itemvalue="JUnit.ComplexNumberTest.module" />
+      <item itemvalue="JUnit.ComplexNumberTest.pow" />
+      <item itemvalue="JUnit.ComplexNumberTest.testPow" />
+      <item itemvalue="JUnit.Vector2DTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="JUnit.ComplexNumberTest.testPow" />
         <item itemvalue="JUnit.ComplexNumberTest.pow" />
-        <item itemvalue="JUnit.ComplexNumberTest" />
-        <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="JUnit.ComplexNumberTest.module" />
       </list>
     </recent_temporary>
@@ -285,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697818185174</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="zmiana metod pow by dawały dokładny wynik a zaokrąglenie przeniesiono do testu">
+      <option name="closed" value="true" />
+      <created>1698140449607</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698140449607</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +338,8 @@
     <MESSAGE value="Rok przestępny&#10;&#10;Dodano sprawdzanie, czy rok jest przestępny&#10;&#10;Dodano komentarze dokumentacyjne" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Poprawiono obsługę błędu złego typu danych by miała miejsce przy wprowadzaniu danych wejściowych" />
     <MESSAGE value="lista_2 z zajęć" />
-    <option name="LAST_COMMIT_MESSAGE" value="lista_2 z zajęć" />
+    <MESSAGE value="zmiana metod pow by dawały dokładny wynik a zaokrąglenie przeniesiono do testu" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiana metod pow by dawały dokładny wynik a zaokrąglenie przeniesiono do testu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
