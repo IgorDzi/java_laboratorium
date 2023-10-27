@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 3&#10;&#10;Initial Commit / Z błędami">
-      <change afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Plywood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/PlywoodElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/WoodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Furniture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Wood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Wood.java" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 3&#10;&#10;Dodano nowe metody">
+      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Plywood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Plywood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/PlywoodElement.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +195,7 @@
       <workItem from="1697821337412" duration="39000" />
       <workItem from="1697821383161" duration="919000" />
       <workItem from="1697901496308" duration="15291000" />
-      <workItem from="1698385047988" duration="4819000" />
+      <workItem from="1698385047988" duration="8624000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>
@@ -330,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698151529994</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lista 3&#10;&#10;Dodano nowe metody">
+      <option name="closed" value="true" />
+      <created>1698396608543</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698396608543</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +369,8 @@
     <MESSAGE value="lista_2 z zajęć" />
     <MESSAGE value="zmiana metod pow by dawały dokładny wynik a zaokrąglenie przeniesiono do testu" />
     <MESSAGE value="Lista 3&#10;&#10;Initial Commit / Z błędami" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lista 3&#10;&#10;Initial Commit / Z błędami" />
+    <MESSAGE value="Lista 3&#10;&#10;Dodano nowe metody" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista 3&#10;&#10;Dodano nowe metody" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
