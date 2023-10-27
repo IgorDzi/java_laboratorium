@@ -9,17 +9,17 @@ public class Wood implements Product {
 
 
 
-    public Wood(double length, double width, double height, double pricePerMeter, int quantity) {
+    public Wood(double length, double width, double height, int quantity, WoodType type) {
         this.length = length;
         this.width = width;
         this.height = height;
-        this.pricePerMeter = pricePerMeter;
+        this.pricePerMeter = type.price;
         this.quantity = quantity;
     }
 
     @Override
     public String getName() {
-        return String.valueOf(length) + 'x' + width +'x' + height; // why
+        return length + "x" + width +"x" + height; // why
     }
 
     @Override
@@ -38,7 +38,6 @@ public class Wood implements Product {
     public void sale(int quantity){
         this.quantity =- quantity;
     }
-    //??????
 
 
 }

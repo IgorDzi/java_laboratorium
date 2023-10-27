@@ -6,15 +6,16 @@ public class Furniture implements Product{
     private final int yearOfProduction;
     private int quantity;
 
-    public Furniture(String name, double price, int yearOfProduction, int quantity) {
+
+    public Furniture(String name, double price, int yearOfProduction, int quantity, WoodType WoodType) {
         this.name = name;
         this.yearOfProduction = yearOfProduction;
         this.quantity = quantity;
         if (isVintage()){
-            this.price = price + 0.2*price;
+            this.price = WoodType.price + 0.2*price;
         }
         else {
-            this.price = price;
+            this.price = WoodType.price;
         }
     }
 
@@ -36,17 +37,17 @@ public class Furniture implements Product{
         this.quantity = -quantity;
     }
     public String getInfo(){
-        return name + "Produced in: " + yearOfProduction + vintageStatus;
+        return name + "Produced in: " + yearOfProduction + vintageStatus();
     }
     private boolean isVintage(){
         return yearOfProduction < 1980;
     }
     private String vintageStatus(){
         if (isVintage()){
-            return 'VINTAGE';
+            return "VINTAGE";
         }
         else {
-            return 'NOT VINTAGE';
+            return "NOT VINTAGE";
         }
     }
 }
