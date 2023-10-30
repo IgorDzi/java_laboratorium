@@ -40,7 +40,7 @@ public class Plywood implements Product{
     @Override
     public double getPrice() {
         double price = 0;
-        for (int i=1; i< woodPercentages.size();i++){
+        for (int i=0; i< woodPercentages.size();i++){
             price += woodTypes.get(i).price * woodPercentages.get(i);
         }
         return price;
@@ -51,6 +51,13 @@ public class Plywood implements Product{
         return quantity;
     }
     public String getComposition(){
-
+        StringBuilder composition = new StringBuilder(String.valueOf(woodTypes.get(0))).append(": ").append(woodPercentages.get(0)).append("%\n");
+        for (int i=1; i< woodTypes.size();i++) {
+            composition.append(woodTypes.get(i)).append(": ").append(woodPercentages.get(i)).append("%");
+        }
+        return composition.toString();
+    }
+    public boolean contains(WoodType WoodType){
+        return woodTypes.contains(WoodType);
     }
 }
