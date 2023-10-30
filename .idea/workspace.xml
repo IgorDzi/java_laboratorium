@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="komentarze">
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 3&#10;&#10;Usunięto klasa PlywoodElement dodano metod to Plywood">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Plywood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Plywood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Wood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Wood.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <recent name="lista_2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexNumberTest">
+  <component name="RunManager">
     <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_1.Ex6" />
       <module name="java_laboratorium" />
@@ -147,6 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Ex6" />
+      <item itemvalue="JUnit.ComplexNumberTest" />
+      <item itemvalue="JUnit.ComplexNumberTest.module" />
+      <item itemvalue="JUnit.ComplexNumberTest.pow" />
+      <item itemvalue="JUnit.Vector2DTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ComplexNumberTest" />
@@ -168,6 +175,7 @@
       <workItem from="1697821337412" duration="39000" />
       <workItem from="1697821383161" duration="919000" />
       <workItem from="1697901496308" duration="21134000" />
+      <workItem from="1698684607286" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>

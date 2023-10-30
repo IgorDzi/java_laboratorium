@@ -31,6 +31,9 @@ public class Wood implements Product {
     public int getQuantity() {
         return quantity;
     }
+    public String getType(){
+        return "dfd"; // da sie dodac?
+    }
     public double area(){
         return length*width;
     }
