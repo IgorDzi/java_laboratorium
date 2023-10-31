@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 3&#10;&#10;Usunięto klasa PlywoodElement dodano metod to Plywood">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 3&#10;&#10;klasa warehouse">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Plywood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Plywood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_3/zadanie_1/Wood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_3/zadanie_1/Wood.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,11 +155,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex6" />
         <item itemvalue="JUnit.ComplexNumberTest" />
         <item itemvalue="JUnit.ComplexNumberTest.pow" />
         <item itemvalue="JUnit.Vector2DTest" />
         <item itemvalue="JUnit.ComplexNumberTest.module" />
-        <item itemvalue="Application.Ex6" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +174,8 @@
       <workItem from="1697821337412" duration="39000" />
       <workItem from="1697821383161" duration="919000" />
       <workItem from="1697901496308" duration="21134000" />
-      <workItem from="1698684607286" duration="700000" />
+      <workItem from="1698684607286" duration="980000" />
+      <workItem from="1698747489555" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>
@@ -305,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698082900866</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lista 3&#10;&#10;klasa warehouse">
+      <option name="closed" value="true" />
+      <created>1698685568282</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698685568284</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +349,8 @@
     <MESSAGE value="lista_2 z zajęć" />
     <MESSAGE value="Lista druga gotowe zadania" />
     <MESSAGE value="komentarze" />
-    <option name="LAST_COMMIT_MESSAGE" value="komentarze" />
+    <MESSAGE value="Lista 3&#10;&#10;klasa warehouse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista 3&#10;&#10;klasa warehouse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

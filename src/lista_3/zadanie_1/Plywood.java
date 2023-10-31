@@ -14,18 +14,12 @@ public class Plywood implements Product{
         this.woodTypes = new ArrayList<WoodType>(elements.keySet());
         this.woodPercentages= new ArrayList<Integer>(elements.values());
         int check = 0;
-        try{
             for (Integer woodPercentage : woodPercentages) {
-                check =+woodPercentage;
+                check +=woodPercentage;
             }
             if (check != 100){
                 throw new IllegalArgumentException();
             }
-        }
-        catch (IllegalArgumentException e){
-            System.out.println("Percentages of wood types must add up to 100%");
-        }
-
     }
 
     @Override
