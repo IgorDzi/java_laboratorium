@@ -4,9 +4,16 @@ public class Furniture implements Product{
     private final String name;
     private final double price;
     private final int yearOfProduction;
-    private int quantity;
+    private final int quantity;
 
 
+    /**
+     * @param name Nazwa produktu
+     * @param price Cena produktu
+     * @param yearOfProduction Rok produkcji produktu
+     * @param quantity Ilość produktu na stanie
+     * @param WoodType Typ drewna, z jakiego produkt jest wykonany
+     */
     public Furniture(String name, double price, int yearOfProduction, int quantity, WoodType WoodType) {
         this.name = name;
         this.yearOfProduction = yearOfProduction;
@@ -33,15 +40,28 @@ public class Furniture implements Product{
     public int getQuantity() {
         return quantity;
     }
-    public void sale(int quantity) {
-        this.quantity = -quantity;
+    @Override
+    public String toString(){
+        return this.getName();
     }
+
+    /**
+     * @return Informacje na temat produktu
+     */
     public String getInfo(){
         return name + "Produced in: " + yearOfProduction + vintageStatus();
     }
+
+    /**
+     * @return True: Przedmiot jest uznawany za "vintage" False: Przedmiot nie jest uznawany za "vintage"
+     */
     private boolean isVintage(){
         return yearOfProduction < 1980;
     }
+
+    /**
+     * @return Informacja na temat statusu "vintage"
+     */
     private String vintageStatus(){
         if (isVintage()){
             return "VINTAGE";
