@@ -1,16 +1,10 @@
 package lista_3.zadanie_2;
 
-public class Product {
-    protected String getName() {
-        return null;
-    }
+public  abstract class Product {
+    protected abstract String getName();
 
-    protected double getPrice() {
-        return 0;
-    }
+    protected abstract double getPrice();
 
-    protected int getQuantity() {
-        return 0;
-    }
+    protected abstract int getQuantity();
 
 }
