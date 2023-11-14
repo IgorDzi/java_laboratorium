@@ -1,6 +1,6 @@
 package lista_4.main;
 
-class ComplexNumber extends Vector2D {
+public class ComplexNumber extends Vector2D {
 
     /**
      * @param x - część rzeczywista liczby zespolonej
@@ -16,6 +16,11 @@ class ComplexNumber extends Vector2D {
     private ComplexNumber(Vector2D vektor) {
         super(vektor.getX(), vektor.getY());
     }
+
+    /**
+     * @param number liczba urojona jako tekst
+     * @return Odpowiednią wartość Input w zależności od postaci liczby urojonej
+     */
     private static Input checkInput(String number){
         String s = number.replaceAll("\\s+", "");
         int plusCount = (int) s.chars().filter(ch -> ch == '+').count();
@@ -35,6 +40,11 @@ class ComplexNumber extends Vector2D {
             return Input.REALANDIMAGINARY;
         }
     }
+
+    /**
+     * @param number liczba urojona w postaci tekstu
+     * @return zmieniona liczba urojona na parametry do utworzenia obiektu
+     */
     private static double[] parseNumber(String number){
         String s = number.replaceAll("\\s+", "");
         switch (checkInput(s)){
@@ -45,7 +55,7 @@ class ComplexNumber extends Vector2D {
                 return new double[]{0,Integer.parseInt(s.substring(1))};
             }
             case REALANDIMAGINARY -> {
-                String[] half = s.split("[+-]+");
+                String[] half = s.split("[+]+");
                 return new double[]{Integer.parseInt(half[0]), Integer.parseInt(half[1].substring(1))};
             }
             default -> throw new WrongInputException();
@@ -63,7 +73,9 @@ class ComplexNumber extends Vector2D {
      * @return postać wykładnicza liczby zespolonej
      */
     public String exponential() {
-        return (module() + "e^(i" +  argument() + ")");
+        int roundInt = (int) (argument()*1000);
+        double roundArgument = (double) roundInt /1000;
+        return (module() + "e^(i" +  roundArgument + ")");
     }
 
     /**
