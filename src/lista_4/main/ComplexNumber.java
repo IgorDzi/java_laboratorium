@@ -25,7 +25,7 @@ public class ComplexNumber extends Vector2D {
         String s = number.replaceAll("\\s+", "");
         int plusCount = (int) s.chars().filter(ch -> ch == '+').count();
         int iCount = (int) s.chars().filter(ch -> ch == 'i').count();
-        if (!s.matches("[0-9\\+i\\-]+") || plusCount>1 || iCount>1){
+        if (!s.matches("[0-9.+i\\-]+") || plusCount>1 || iCount>1){
             return Input.INCORRECT;
         }
         if (plusCount == 0){
@@ -49,14 +49,14 @@ public class ComplexNumber extends Vector2D {
         String s = number.replaceAll("\\s+", "");
         switch (checkInput(s)){
                 case ONLYREAL -> {
-                return new double[]{Integer.parseInt(s), 0};
+                return new double[]{Double.parseDouble(s), 0};
             }
             case ONLYIMAGINARY -> {
-                return new double[]{0,Integer.parseInt(s.substring(1))};
+                return new double[]{0,Double.parseDouble(s.substring(1))};
             }
             case REALANDIMAGINARY -> {
                 String[] half = s.split("[+]+");
-                return new double[]{Integer.parseInt(half[0]), Integer.parseInt(half[1].substring(1))};
+                return new double[]{Double.parseDouble(half[0]), Double.parseDouble(half[1].substring(1))};
             }
             default -> throw new WrongInputException();
         }
