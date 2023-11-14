@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 4&#10;&#10;Dodano testy sprawdzania wprowadzania liczby w postaci x+iy">
+      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_1/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_1/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_2/Warehouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_4/SentenceStats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_4/main/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_4/main/ComplexNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,11 +75,30 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="zadanie_1" />
       <recent name="lista_4.main" />
       <recent name="lista_2" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lista_5.zadanie_2" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexNumberTest">
+  <component name="RunManager">
+    <configuration name="CollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_laboratorium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista_5.zadanie_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zadanie_1" />
+      <option name="MAIN_CLASS_NAME" value="lista_5.zadanie_1.CollectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComplexNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_laboratorium" />
       <extension name="coverage">
@@ -87,22 +110,6 @@
       <option name="PACKAGE_NAME" value="lista_4.test" />
       <option name="MAIN_CLASS_NAME" value="lista_4.test.ComplexNumberTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexNumberTest.argumentUnhappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_laboratorium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista_4.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista_4.test" />
-      <option name="MAIN_CLASS_NAME" value="lista_4.test.ComplexNumberTest" />
-      <option name="METHOD_NAME" value="argumentUnhappy" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,7 +163,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ComplexNumberTest.argumentUnhappy" />
+      <item itemvalue="JUnit.CollectionTest" />
       <item itemvalue="JUnit.ComplexNumberTest.constructorFromStringBoth" />
       <item itemvalue="JUnit.ComplexNumberTest.constructorFromStringException" />
       <item itemvalue="JUnit.ComplexNumberTest.exponential" />
@@ -164,11 +171,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollectionTest" />
         <item itemvalue="JUnit.ComplexNumberTest" />
         <item itemvalue="JUnit.ComplexNumberTest.constructorFromStringBoth" />
         <item itemvalue="JUnit.ComplexNumberTest.constructorFromStringException" />
         <item itemvalue="JUnit.ComplexNumberTest.exponential" />
-        <item itemvalue="JUnit.ComplexNumberTest.argumentUnhappy" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +193,9 @@
       <workItem from="1698684607286" duration="980000" />
       <workItem from="1698747489555" duration="1243000" />
       <workItem from="1699352228030" duration="11889000" />
-      <workItem from="1699950961687" duration="5607000" />
+      <workItem from="1699950961687" duration="5823000" />
+      <workItem from="1699958962015" duration="165000" />
+      <workItem from="1699964377803" duration="4843000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>
@@ -356,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699957582504</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lista 4&#10;&#10;Dodano testy sprawdzania wprowadzania liczby w postaci x+iy">
+      <option name="closed" value="true" />
+      <created>1699958712941</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699958712941</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,5 +439,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_laboratorium$ComplexNumberTest.ic" NAME="ComplexNumberTest Coverage Results" MODIFIED="1699958682473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lista_4.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
