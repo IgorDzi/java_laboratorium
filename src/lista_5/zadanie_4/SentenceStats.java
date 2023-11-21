@@ -7,7 +7,7 @@ public class SentenceStats {
 
     public SentenceStats(String sentence) {
         Map<Character, Integer> stats = new HashMap<>();
-        sentence.chars().filter(ch -> ch == '+').count();
+
     }
 
 }
