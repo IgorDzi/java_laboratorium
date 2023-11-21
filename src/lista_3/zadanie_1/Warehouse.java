@@ -10,12 +10,12 @@ public class Warehouse{
 
 
         ArrayList<Product> products = new ArrayList<>();
-        Wood wood = new Wood(2,2,2,5, WoodType.Oak);
-        Furniture furniture = new Furniture("Table", 50,1910,1,WoodType.Ash);
+        Wood wood = new Wood(2,2,2,5, WoodType.OAK);
+        Furniture furniture = new Furniture("Table", 50,1910,1,WoodType.ASH);
         HashMap<WoodType, Integer> materials = new HashMap<>();
-        materials.put(WoodType.Beech, 50);
-        materials.put(WoodType.Ash, 25);
-        materials.put(WoodType.Mahogany,25);
+        materials.put(WoodType.BEECH, 50);
+        materials.put(WoodType.ASH, 25);
+        materials.put(WoodType.MAHOGANY,25);
         Plywood plywood = null;
         try {
             plywood = new Plywood(10, materials);

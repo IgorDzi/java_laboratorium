@@ -1,17 +1,17 @@
 package lista_3.zadanie_1;
 
 public enum WoodType {
-    Oak(250),
-    Walnut(300) ,
-    Pine(240),
-    Ash(500),
+    OAK(250),
+    WALNUT(300) ,
+    PINE(240),
+    ASH(500),
     Redwood(325),
-    Beech(987),
-    Mahogany(1250);
+    BEECH(987),
+    MAHOGANY(1250);
 
     public final int price;
 
-    private WoodType(int price) {
+    WoodType(int price) {
         this.price = price;
     }
 }

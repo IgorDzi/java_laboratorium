@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 4&#10;&#10;Dodano testy sprawdzania wprowadzania liczby w postaci x+iy">
-      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_1/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_1/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_2/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_5/zadanie_4/SentenceStats.java" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 5&#10;&#10;Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +78,7 @@
       <recent name="lista_5.zadanie_2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CollectionTest">
     <configuration name="CollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_laboratorium" />
       <extension name="coverage">
@@ -195,7 +190,8 @@
       <workItem from="1699352228030" duration="11889000" />
       <workItem from="1699950961687" duration="5823000" />
       <workItem from="1699958962015" duration="165000" />
-      <workItem from="1699964377803" duration="4843000" />
+      <workItem from="1699964377803" duration="5344000" />
+      <workItem from="1700566105372" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>
@@ -373,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699958712941</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Lista 5&#10;&#10;Initial Commit">
+      <option name="closed" value="true" />
+      <created>1699969818299</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1699969818299</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +419,8 @@
     <MESSAGE value="Lista 4&#10;&#10;Pierwsze przesłanie" />
     <MESSAGE value="Lista 4&#10;&#10;Dodano testy" />
     <MESSAGE value="Lista 4&#10;&#10;Dodano testy sprawdzania wprowadzania liczby w postaci x+iy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lista 4&#10;&#10;Dodano testy sprawdzania wprowadzania liczby w postaci x+iy" />
+    <MESSAGE value="Lista 5&#10;&#10;Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista 5&#10;&#10;Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
