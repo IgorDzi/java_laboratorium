@@ -1,5 +1,6 @@
-package lista_4.main;
+package lista_7.zadanie_1;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,8 +20,13 @@ public class ComplexNumber extends Vector2D {
     private ComplexNumber(Vector2D vektor) {
         super(vektor.getX(), vektor.getY());
     }
+    public List<ComplexNumber> readComplexData(String fileName) throws IOException {
+        List<ComplexNumber> complexNumbers = new ArrayList<>();
+        DataInputStream data = new DataInputStream(new FileInputStream("data.dat"));
 
 
+        return complexNumbers;
+    }
 
     /**
      * @param number liczba urojona jako tekst
@@ -30,20 +36,18 @@ public class ComplexNumber extends Vector2D {
         String s = number.replaceAll("\\s+", "");
         int plusCount = (int) s.chars().filter(ch -> ch == '+').count();
         int iCount = (int) s.chars().filter(ch -> ch == 'i').count();
-        if (!s.matches("[0-9.+i\\-]+") || plusCount>1 || iCount>1){
+        int minusCount = (int) s.chars().filter(ch -> ch == '-').count();
+        if (!s.matches("[0-9.+i\\-]+") || plusCount>1 || iCount>1 || minusCount>2){
             return Input.INCORRECT;
         }
-        if (plusCount == 0){
-            if (iCount == 0){
-                return Input.ONLYREAL;
-            }
-            else {
-                return Input.ONLYIMAGINARY;
-            }
+        if (plusCount == 1){
+            return Input.IMAGINERYPOSTIVE;
         }
         else {
-            return Input.REALANDIMAGINARY;
+            return Input.IMAGINERYNEGATIVE;
         }
+
+
     }
 
     /**
@@ -53,15 +57,15 @@ public class ComplexNumber extends Vector2D {
     private static double[] parseNumber(String number){
         String s = number.replaceAll("\\s+", "");
         switch (checkInput(s)){
-                case ONLYREAL -> {
-                return new double[]{Double.parseDouble(s), 0};
+
+            case IMAGINERYNEGATIVE -> {
+                String[] half = s.split("[-]+");
+                return new double[]{Double.parseDouble(half[0]), Double.parseDouble(half[1].substring(0,half[1].length()-1))};
+
             }
-            case ONLYIMAGINARY -> {
-                return new double[]{0,Double.parseDouble(s.substring(1))};
-            }
-            case REALANDIMAGINARY -> {
+            case IMAGINERYPOSTIVE -> {
                 String[] half = s.split("[+]+");
-                return new double[]{Double.parseDouble(half[0]), Double.parseDouble(half[1].substring(1))};
+                return new double[]{Double.parseDouble(half[0]), Double.parseDouble(half[1].substring(0,half[1].length()-1))};
             }
             default -> throw new WrongInputException();
         }
