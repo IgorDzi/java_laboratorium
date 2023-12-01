@@ -60,12 +60,18 @@ public class ComplexNumber extends Vector2D {
 
             case IMAGINERYNEGATIVE -> {
                 String[] half = s.split("[-]+");
-                return new double[]{Double.parseDouble(half[0]), Double.parseDouble(half[1].substring(0,half[1].length()-1))};
+                if (half.length == 3){
+                    half[0]= half[1];
+                    half[1] = half[2];
+                }
+                return new double[]{Double.parseDouble(half[0]),
+                        -1*Double.parseDouble(half[1].substring(0,half[1].length()-1))};
 
             }
             case IMAGINERYPOSTIVE -> {
                 String[] half = s.split("[+]+");
-                return new double[]{Double.parseDouble(half[0]), Double.parseDouble(half[1].substring(0,half[1].length()-1))};
+                return new double[]{Double.parseDouble(half[0]),
+                        Double.parseDouble(half[1].substring(0,half[1].length()-1))};
             }
             default -> throw new WrongInputException();
         }
