@@ -1,8 +1,7 @@
 package lista_7.zadanie_1;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class ComplexNumber extends Vector2D {
 
@@ -17,15 +16,41 @@ public class ComplexNumber extends Vector2D {
         super(parseNumber(number)[0], parseNumber(number)[1]);
 
     }
-    private ComplexNumber(Vector2D vektor) {
-        super(vektor.getX(), vektor.getY());
+    private ComplexNumber(Vector2D vector) {
+        super(vector.getX(), vector.getY());
     }
-    public List<ComplexNumber> readComplexData(String fileName) throws IOException {
-        List<ComplexNumber> complexNumbers = new ArrayList<>();
-        DataInputStream data = new DataInputStream(new FileInputStream("data.dat"));
+    public static Map<Double,ComplexNumber> readComplexData(String fileName) throws IOException {
+        Map<Double,ComplexNumber> complexNumbers = new TreeMap<>();
+        File myFile = new File(fileName);
+        FileReader fr = new FileReader(myFile);
+        BufferedReader br = new BufferedReader(fr);
+        String line = br.readLine();
+        line = br.readLine();
+        while (line != null){
+            String[] cut = line.split(" ");
+            double index = Double.parseDouble(cut[0]);
+            ComplexNumber number = new ComplexNumber(cut[1]);
+            complexNumbers.put(index,number);
+            line = br.readLine();
+        }
+        br.close();
 
 
         return complexNumbers;
+    }
+    public static void saveComplexData(Map<Double,ComplexNumber> complexNumberMap, String fileName) throws IOException {
+        File myFile = new File(fileName);
+        FileWriter fileWriter = new FileWriter(myFile);
+        BufferedWriter bf = new BufferedWriter(fileWriter);
+
+        bf.write("# t mod arg");
+        complexNumberMap.forEach((key, value) -> {
+            try {
+                bf.write((int) (key + value.module() + value.argument()));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
 
     /**

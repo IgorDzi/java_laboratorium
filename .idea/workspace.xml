@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 4 &#10;Dodano statystykę zdania">
-      <change afterPath="$PROJECT_DIR$/src/lista_6/zadanie_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_6/zadanie_1/SentenceStats.java" afterDir="false" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 6 &#10;&#10;Dodano statystykę zdania">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_1/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_1/ComplexNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <recent name="lista_5.zadanie_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lista_6.zadanie_1.Main">
+  <component name="RunManager" selected="Application.lista_7.zadanie_1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_5.zadanie_3.Main" />
       <module name="java_laboratorium" />
@@ -162,9 +163,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lista_7.zadanie_1.Main" />
         <item itemvalue="Application.lista_6.zadanie_1.Main" />
         <item itemvalue="Application.SentenceStats" />
-        <item itemvalue="Application.lista_7.zadanie_1.Main" />
         <item itemvalue="Application.lista_6.zadanie_2.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -190,7 +191,7 @@
       <workItem from="1700566105372" duration="5784000" />
       <workItem from="1701174788404" duration="4265000" />
       <workItem from="1701413220742" duration="1629000" />
-      <workItem from="1701691919195" duration="1485000" />
+      <workItem from="1701691919195" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="Poprawiono wzory na 'distance' i 'maxHeight' by używały stopni w radianach&#10;&#10;Ze wzoru 'maxHeight' usunięto mnożenie razy 2 kata uderzenia &#10;&#10;Dodano komentarz dokumentacyjny">
       <created>1697114297438</created>
@@ -408,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701692786119</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Lista 6 &#10;&#10;Dodano statystykę zdania">
+      <option name="closed" value="true" />
+      <created>1701693749073</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1701693749073</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Poprawa błędów&#10;&#10;Przy przeliczaniu b zmieniono s2 na s3" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX lub użycia nieprawidłowych znaków&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika" />
@@ -451,7 +459,8 @@
     <MESSAGE value="Lista 5, Lista 6 &#10;&#10;Initial Commit 6&#10;Poprawy 5" />
     <MESSAGE value="Lista 7&#10;&#10;Initial Commit" />
     <MESSAGE value="Lista 4 &#10;Dodano statystykę zdania" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lista 4 &#10;Dodano statystykę zdania" />
+    <MESSAGE value="Lista 6 &#10;&#10;Dodano statystykę zdania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lista 6 &#10;&#10;Dodano statystykę zdania" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
