@@ -38,19 +38,30 @@ public class ComplexNumber extends Vector2D {
 
         return complexNumbers;
     }
-    public static void saveComplexData(Map<Double,ComplexNumber> complexNumberMap, String fileName) throws IOException {
+    public static void saveComplexData(Map<Double,ComplexNumber> complexNumberMap, String fileName, boolean overwrite) throws IOException {
         File myFile = new File(fileName);
-        FileWriter fileWriter = new FileWriter(myFile);
-        BufferedWriter bf = new BufferedWriter(fileWriter);
+        BufferedWriter bf;
+        if (overwrite){
+            FileWriter fileWriter = new FileWriter(myFile);
+            bf = new BufferedWriter(fileWriter);
+            bf.write("# t mod arg");
+            bf.newLine();
+        }
+        else {
+            FileWriter fileWriter = new FileWriter(myFile, true);
+            bf = new BufferedWriter(fileWriter);
+        }
 
-        bf.write("# t mod arg");
         complexNumberMap.forEach((key, value) -> {
             try {
-                bf.write((int) (key + value.module() + value.argument()));
+                String line = key + " " + value.module() + " " + value.argument();
+                bf.write(line);
+                bf.newLine();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         });
+        bf.close();
     }
 
     /**

@@ -11,9 +11,10 @@ public class Main {
         ComplexNumber expected = new ComplexNumber(-2.4,7.7);
         System.out.println(actual);
         System.out.println(expected);
-        String file
         Map<Double, ComplexNumber> complexNumbers = ComplexNumber.readComplexData("src/lista_7/zadanie_1/data.dat");
         complexNumbers.forEach((key, value) -> System.out.println(key + ": " + value));
+        ComplexNumber.saveComplexData(complexNumbers,"src/lista_7/zadanie_1/out_data.dat",true);
+
 
 
 
