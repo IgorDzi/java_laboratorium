@@ -13,12 +13,7 @@ public class Main {
         System.out.println(expected);
         Map<Double, ComplexNumber> complexNumbers = ComplexNumber.readComplexData("src/lista_7/zadanie_1/data.dat");
         complexNumbers.forEach((key, value) -> System.out.println(key + ": " + value));
-        ComplexNumber.saveComplexData(complexNumbers,"src/lista_7/zadanie_1/out_data.dat",true);
-
-
-
-
-
+        ComplexNumber.saveComplexData(complexNumbers,false);
     }
 
 }

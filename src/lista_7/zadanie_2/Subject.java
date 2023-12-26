@@ -4,6 +4,12 @@ package lista_7.zadanie_2;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.JSONWriter;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Subject {
     private final String subjectName;
@@ -52,6 +58,18 @@ public class Subject {
         personArr.put(p1);
         return personArr;
     }
+    public static void saveJSON(JSONArray jsonArray, String fileName) throws IOException {
+        try (FileWriter fileWriter = new FileWriter(fileName)) {
+            fileWriter.write(jsonArray.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public static void saveJSON(JSONArray jsonArray) throws IOException {
+        saveJSON(jsonArray,"data_out.json");
+    }
+
+
 
     public Subject(String subjectName, String departamentName, String lecturerName, int studentCount) {
         this.subjectName = subjectName;
@@ -59,6 +77,7 @@ public class Subject {
         this.lecturerName = lecturerName;
         this.studentCount = studentCount;
     }
+
 
 
 

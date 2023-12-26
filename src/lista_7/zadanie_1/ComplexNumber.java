@@ -63,6 +63,9 @@ public class ComplexNumber extends Vector2D {
         });
         bf.close();
     }
+    public static void saveComplexData(Map<Double,ComplexNumber> complexNumberMap, boolean overwrite) throws IOException {
+        saveComplexData(complexNumberMap, "out_data.dat", overwrite);
+    }
 
     /**
      * @param number liczba urojona jako tekst
