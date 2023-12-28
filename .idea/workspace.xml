@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 7&#10;&#10;Dodano zadanie 2">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/CreditType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/SubjectType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/gson.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_laboratorium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_laboratorium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/SubjectMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/SubjectMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/java-json.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Komentarz&#10;&#10;Dodano komentarz dokumentacyjny" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +91,7 @@
       <recent name="lista_5.zadanie_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.lista_6.zadanie_1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_7.zadanie_2.Main" />
       <module name="java_laboratorium" />
@@ -179,10 +166,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.lista_7.zadanie_1.Main" />
         <item itemvalue="Application.lista_6.zadanie_1.Main" />
         <item itemvalue="Application.SentenceStats" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.lista_7.zadanie_1.Main" />
         <item itemvalue="Application.lista_6.zadanie_2.Main" />
       </list>
     </recent_temporary>
@@ -444,7 +431,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701783856351</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Lista 7&#10;&#10;Dodano Odczyt z JSON w zadaniu 2">
+      <option name="closed" value="true" />
+      <created>1703785638693</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785638693</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Komentarz&#10;&#10;Dodano komentarz dokumentacyjny">
+      <option name="closed" value="true" />
+      <created>1703785799146</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1703785799146</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,8 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Obsługa wyjątków&#10;&#10;Doda obsługę błędu w przypadku wprowadzenia za krótkiego kodu HEX lub użycia nieprawidłowych znaków&#10;&#10;Dodano komentarz dokumentacyjny" />
-    <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono program tak by przy tworzeniu tablicy odnosił się bezpośrednio do jej wielkości, a nie do liczby podanej przez użytkownika" />
     <MESSAGE value="Obsługa wyjątków&#10;&#10;Dodano obsługę błędu przy podaniu złego typu danych&#10;&#10;Dodano komentarz dokumentacyjny" />
     <MESSAGE value="Naprawa błędu&#10;&#10;Poprawiono metodę 'wspolczynniki' tak by brała poprawne punkty jako argumenty" />
     <MESSAGE value="Komentarze&#10;&#10;Dodano komentarze dokumentacyjne" />
@@ -487,7 +488,9 @@
     <MESSAGE value="Lista 4 &#10;Dodano statystykę zdania" />
     <MESSAGE value="Lista 6 &#10;&#10;Dodano statystykę zdania" />
     <MESSAGE value="Lista 7&#10;&#10;Dodano zadanie 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lista 7&#10;&#10;Dodano zadanie 2" />
+    <MESSAGE value="Lista 7&#10;&#10;Dodano Odczyt z JSON w zadaniu 2" />
+    <MESSAGE value="Komentarz&#10;&#10;Dodano komentarz dokumentacyjny" />
+    <option name="LAST_COMMIT_MESSAGE" value="Komentarz&#10;&#10;Dodano komentarz dokumentacyjny" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
