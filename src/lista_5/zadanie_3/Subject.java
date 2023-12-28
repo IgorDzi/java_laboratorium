@@ -24,6 +24,9 @@ public class Subject {
         return studentCount;
     }
 
+    /**
+     * @return String zawierający informacje o przedmiocie
+     */
     public String getInfo(){
         StringBuilder info = new StringBuilder();
         String newLine = System.getProperty("line.separator");
