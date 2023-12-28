@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Lista 7&#10;&#10;Dodano zadanie 2">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/CreditType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/SubjectType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/gson.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_1/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_1/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_laboratorium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_laboratorium.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/SubjectMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_2/SubjectMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_2/java-json.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,47 +47,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Igor/IdeaProjects/java_laboratorium/src/lista_7/zadanie_2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/koste/Java/Zaawansowane Programowanie Obiektowe/java_laboratorium/src/lista_7/zadanie_2/gson.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\koste\Java\Zaawansowane Programowanie Obiektowe\java_laboratorium\src\lista_7\zadanie_2" />
       <recent name="$PROJECT_DIR$/src/lista_7/zadanie_2" />
       <recent name="$PROJECT_DIR$/src/lista_7/zadanie_1" />
       <recent name="$PROJECT_DIR$/src/lista_6/zadanie_2" />
       <recent name="$PROJECT_DIR$/src/lista_4/main" />
-      <recent name="C:\Users\koste\Java\Zaawansowane Programowanie Obiektowe\java_laboratorium\src\lista_3\zadanie_2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\koste\Java\Zaawansowane Programowanie Obiektowe\java_laboratorium\src\lista_7\zadanie_2" />
       <recent name="$PROJECT_DIR$/src/lista_7/zadanie_2" />
       <recent name="$PROJECT_DIR$/src/lista_7/zadanie_1" />
       <recent name="$PROJECT_DIR$/src/lista_4/main" />
@@ -96,7 +104,7 @@
       <recent name="lista_5.zadanie_2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista_7.zadanie_2.Main" />
       <module name="java_laboratorium" />
@@ -163,7 +171,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.lista_7.zadanie_2.Main" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SentenceStats" />
       <item itemvalue="Application.lista_6.zadanie_1.Main" />
       <item itemvalue="Application.lista_7.zadanie_1.Main" />
@@ -171,7 +179,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lista_7.zadanie_2.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.lista_7.zadanie_1.Main" />
         <item itemvalue="Application.lista_6.zadanie_1.Main" />
         <item itemvalue="Application.SentenceStats" />

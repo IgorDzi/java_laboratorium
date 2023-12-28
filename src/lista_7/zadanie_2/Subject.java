@@ -1,15 +1,9 @@
 package lista_7.zadanie_2;
 
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONWriter;
+import com.google.gson.Gson;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class Subject {
     private final String subjectName;
@@ -17,11 +11,25 @@ public class Subject {
     private final String lecturerName;
     private final int studentCount;
 
+    private final SubjectType subjectType;
+    private final CreditType creditType;
+
+
+
+    public Subject(String subjectName, String departamentName, String lecturerName, int studentCount, SubjectType subjectType, CreditType creditType) {
+        this.subjectName = subjectName;
+        this.departamentName = departamentName;
+        this.lecturerName = lecturerName;
+        this.studentCount = studentCount;
+        this.subjectType = subjectType;
+        this.creditType = creditType;
+    }
+
     public String getSubjectName() {
         return subjectName;
     }
 
-    public String getDepartmentName() {
+    public String getDepartamentName() {
         return departamentName;
     }
 
@@ -33,51 +41,53 @@ public class Subject {
         return studentCount;
     }
 
+    public SubjectType getSubjectType() {
+        return subjectType;
+    }
+
+    public CreditType getCreditType() {
+        return creditType;
+    }
+
     public String getInfo(){
         StringBuilder info = new StringBuilder();
         String newLine = System.getProperty("line.separator");
         info.append("Subject: ").append(subjectName).append(newLine);
         info.append("Department: ").append(departamentName).append(newLine);
         info.append("Lecturer: ").append(lecturerName).append(newLine);
+        info.append("Type: ").append(subjectType).append(newLine);
+        info.append("Credit: ").append(creditType).append(newLine);
         info.append("Students: ").append(studentCount);
         return String.valueOf(info);
 
+    }
+    public void saveJSON(String fileName) throws IOException {
+        File myFile = new File(fileName);
+        FileWriter fileWriter = new FileWriter(myFile);
+        Gson gson = new Gson();
+        gson.toJson(this,fileWriter);
+        fileWriter.close();
+    }
+    public void saveJSON() throws IOException {
+        String fileName = getSubjectName() + ".json";
+        File myFile = new File(fileName);
+        FileWriter fileWriter = new FileWriter(myFile);
+        Gson gson = new Gson();
+        gson.toJson(this,fileWriter);
+        fileWriter.close();
+    }
+
+    public static Subject readJSON(String fileName) throws IOException {
+        File myFile = new File(fileName);
+        FileReader fileReader = new FileReader(fileName);
+        Gson gson = new Gson();
+        return gson.fromJson(fileReader, Subject.class);
     }
 
     @Override
     public String toString(){
         return subjectName;
     }
-    public JSONArray toJSON() throws JSONException {
-        JSONArray personArr = new JSONArray();
-        JSONObject p1 = new JSONObject();
-        p1.put("subject", subjectName);
-        p1.put("department", departamentName);
-        p1.put("lecturer",lecturerName);
-        p1.put("students",studentCount);
-        personArr.put(p1);
-        return personArr;
-    }
-    public static void saveJSON(JSONArray jsonArray, String fileName) throws IOException {
-        try (FileWriter fileWriter = new FileWriter(fileName)) {
-            fileWriter.write(jsonArray.toString());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    public static void saveJSON(JSONArray jsonArray) throws IOException {
-        saveJSON(jsonArray,"data_out.json");
-    }
-
-
-
-    public Subject(String subjectName, String departamentName, String lecturerName, int studentCount) {
-        this.subjectName = subjectName;
-        this.departamentName = departamentName;
-        this.lecturerName = lecturerName;
-        this.studentCount = studentCount;
-    }
-
 
 
 

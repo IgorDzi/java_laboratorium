@@ -9,15 +9,12 @@ public class SubjectMap {
     public SubjectMap() {
         this.subjectMap = new HashMap<>();
     }
-    public void saveToJSON(String fileName){
-
-    }
 
     public void addSubject(int subjectID, Subject subject){
         this.subjectMap.put(subjectID,subject);
     }
-    public void addSubject(int subjectID, String subjectName, String departamentName, String lecturerName, int studentCount){
-        Subject subject = new Subject(subjectName, departamentName, lecturerName, studentCount);
+    public void addSubject(int subjectID, String subjectName, String departamentName, String lecturerName, int studentCount, SubjectType subjectType, CreditType creditType){
+        Subject subject = new Subject(subjectName, departamentName, lecturerName, studentCount, subjectType, creditType);
         this.subjectMap.put(subjectID, subject);
     }
     public Subject getSubject(int subjectID){
