@@ -19,6 +19,12 @@ public class ComplexNumber extends Vector2D {
     private ComplexNumber(Vector2D vector) {
         super(vector.getX(), vector.getY());
     }
+
+    /**
+     * @param fileName Nazwa pliku
+     * @return Mapa zawierająca liczby zespolone
+     * @throws IOException
+     */
     public static Map<Double,ComplexNumber> readComplexData(String fileName) throws IOException {
         Map<Double,ComplexNumber> complexNumbers = new TreeMap<>();
         File myFile = new File(fileName);
@@ -38,6 +44,14 @@ public class ComplexNumber extends Vector2D {
 
         return complexNumbers;
     }
+
+    /**
+     * Zapisywanie mapy zawierającej liczby zespolone do pliku .dat
+     * @param complexNumberMap Mapa liczb zespolonych
+     * @param fileName nazwa pliku
+     * @param overwrite typ zapisu (1-nadpisywanie, 0-brak nadpisywania)
+     * @throws IOException
+     */
     public static void saveComplexData(Map<Double,ComplexNumber> complexNumberMap, String fileName, boolean overwrite) throws IOException {
         File myFile = new File(fileName);
         BufferedWriter bf;
@@ -63,6 +77,13 @@ public class ComplexNumber extends Vector2D {
         });
         bf.close();
     }
+
+    /**
+     * Zapisywanie mapy zawierającej liczby zespolone do pliku data.dat
+     * @param complexNumberMap Mapa liczb zespolonych
+     * @param overwrite typ zapisu (1-nadpisywanie, 0-brak nadpisywania)
+     * @throws IOException
+     */
     public static void saveComplexData(Map<Double,ComplexNumber> complexNumberMap, boolean overwrite) throws IOException {
         saveComplexData(complexNumberMap, "out_data.dat", overwrite);
     }

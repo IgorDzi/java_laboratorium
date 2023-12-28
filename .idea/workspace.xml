@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Komentarz&#10;&#10;Dodano komentarz dokumentacyjny" />
+    <list default="true" id="17ab7c1f-31e2-444a-ae4c-9030fe1b6a4c" name="Changes" comment="Komentarz&#10;&#10;Dodano komentarz dokumentacyjny">
+      <change beforePath="$PROJECT_DIR$/src/lista_6/zadanie_2/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_6/zadanie_2/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lista_7/zadanie_1/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lista_7/zadanie_1/ComplexNumber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -447,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703785799146</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Komentarz&#10;&#10;Dodano komentarz dokumentacyjny">
+      <option name="closed" value="true" />
+      <created>1703786133290</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703786133290</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
