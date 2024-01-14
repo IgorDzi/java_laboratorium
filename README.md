@@ -32,8 +32,7 @@ Każda lista ma osobny folder ze swoimi rozwiązyaniami w folderze [src](src)
 
 ### Projekt:
 
-[Link do repozytorium z projektem]
-
+https://github.com/IgorDzi/TaskManager
 
 
 
